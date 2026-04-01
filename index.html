@@ -1,0 +1,101 @@
+<!--
+    Name: Sophia Arfan & Erica Mandel
+    Date: Feb 25th 2026
+    Description: main/index HTML page for assignment increment-game site, displays the game  
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Heart Clicker</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>₊˚⊹❤ Heart Clicker ❤⊹˚₊</h1>
+    <div id="scoreboard">
+        <div class="stats">
+            <h3>ꨄ︎Hearts</h3>
+            <p id="hearts">0</p>
+        </div>
+
+        <div class="stats">
+            <h3>: ̗̀➛ Click Value</h3>
+            <p id="clickCounter">0</p>
+        </div>
+
+        <div class="stats">
+            <h3> ̗❀ Upgrades in play</h3>
+            <p id="displayUpgrades">None</p>
+        </div>
+    </div>
+
+    <div id="clickArea">
+        <span id="mainHeart">❤️</span>
+        <p>Click to collect hearts!</p>
+    </div>
+
+    <div id="upgrades">
+        <h2>˚ ༘⋆🛍️｡˚Upgrade Shop ˚ ༘⋆🛍️｡˚</h2>
+        <button id="doubleBtn">
+            💙 Double the click value<br>
+            Cost:<span id="doubleCost">50</span>
+        </button>
+        <button id="tripleBtn">
+            🌹 Triple the click value<br>
+            Cost:<span id="tripleCost">100</span>
+        </button>
+        <button id="hunderedBtn">
+            🍫 x100 to the click value <br>
+            Cost: <span id="hunderedCost">1000</span>
+        </button>
+        <button id="autoClickBtn">
+            🩷 Enable an autoclicker<br>
+            Cost: <span id="autoClickCost">200</span>
+        </button>
+        <button id="superHeartBtn">
+            🤍 Increase SUPER heart chance (+2%)<br>
+            Cost: <span id="superCost">500</span>
+        </button>
+    </div>
+
+    <div id="rewardsCentre">
+        <h2>꧁ Rewards ꧂</h2>
+        <div id="badges"></div>
+        <p>💌 100 clicks </p>
+        <p>💐 500 clicks</p>
+        <p>💋 1,000 clicks</p>
+        <p>🧸 10,000 clicks</p>
+        <p>💍 50,000 clicks</p>
+    </div>
+
+    <div id="alert"></div>
+
+    <button id="helpBtn">(╹-╹)? Help!</button>
+    <div id="helpTxt">
+        <h3>How to play:</h3>
+        <p>Click on the big heart on screen to start earning hearts (think of these as an in-game currency).</p>
+        <p>Collect and spend hearts to purchase upgrades to improve your clicking power and get rewards!</p>
+        <h4>Upgrades list:</h4>
+        <ul>
+            <li>💙 Double the click value</li>
+            <li>🌹 Triple the click value </li>
+            <li> 🍫 x100 to the click value </li>
+            <li>🩷 Enable an autoclicker (1.5x speed per purchase)</li>
+            <li>🤍 Increase SUPER heart chance (an added 2% chance for +10,000 hearts)</li>
+        </ul>
+        <p>Your upgrades will be shown in the "Upgrades in play" section, with the corresponding upgrade icon/s.</p>
+        <p>If an upgrade has been purchased multiple times, the icon will be shown multiple times as well.</p>
+        <h4>Rewards:</h4>
+        <p>💌 100 clicks </p>
+        <p>💐 500 clicks</p>
+        <p>💋 1,000 clicks</p>
+        <p>🧸 10,000 clicks</p>
+        <p>💍 50,000 clicks</p>
+    </div>
+    <script src="js/increments.js"></script>
+</body>
+
+</html>
