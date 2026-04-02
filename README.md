@@ -2,7 +2,7 @@
 
 A browser-based idle clicker game with an upgrade shop, autoclicker, milestone rewards, and a Super Heart mechanic. Built with vanilla HTML, CSS, and JavaScript.
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-F26A8D?style=for-the-badge&logo=google-chrome&logoColor=white)]((https://sophiaarfan.github.io/heart-clicker/))
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-F26A8D?style=for-the-badge&logo=google-chrome&logoColor=white)](https://sophiaarfan.github.io/heart-clicker/)]
 
 ## Overview
 
