@@ -1,5 +1,5 @@
 /*
-    Name: Sophia Arfan & Erica Mandel
+    Name: Sophia Arfan & Anon Partner
     Date: Feb 25th 2026
     Description: style sheet for pair assignment increment-game site 
 */
@@ -61,8 +61,8 @@ h1 {
 }
 
 #mainHeart:hover {
-    transform: scale(0.9); /*https://www.w3schools.com/cssref/css3_pr_transform.php*/
-    filter: brightness(1.09); /*https://www.w3schools.com/cssref/func_brightness.php*/
+    transform: scale(0.9); 
+    filter: brightness(1.09); 
 }
 
 #upgrades {
@@ -139,7 +139,7 @@ h1 {
     font-weight: bold;
     box-shadow: 0 4px 15px black;
     display: none;
-    z-index: 1000; /*https://www.w3schools.com/cssref/pr_pos_z-index.php*?*/
+    z-index: 1000; 
 }
 
 #helpBtn {
